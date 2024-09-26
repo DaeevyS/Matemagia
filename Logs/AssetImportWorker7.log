@@ -1,0 +1,1114 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32661 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Game Development/Unity/Matemagia
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+65530
+Successfully changed project path to: D:/Game Development/Unity/Matemagia
+D:/Game Development/Unity/Matemagia
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6960] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3384875882 [EditorId] 3384875882 [Version] 1048832 [Id] WindowsEditor(7,David) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6960] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3384875882 [EditorId] 3384875882 [Version] 1048832 [Id] WindowsEditor(7,David) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 16.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Development/Unity/Matemagia/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016712 seconds.
+- Loaded All Assemblies, in  0.530 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 397 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (514ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.815 seconds
+Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1613ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 7.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (68.4 KB). Loaded Objects now: 4762.
+Memory consumption went from 160.8 MB to 160.8 MB.
+Total: 4.204100 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.298100 ms MarkObjects: 3.333100 ms  DeleteObjects: 0.198000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122348.577140 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (73).png
+  artifactKey: Guid(3c158b6f38d2168408594141b668aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (73).png using Guid(3c158b6f38d2168408594141b668aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '206c8338173e602540cf835081c36aa0') in 0.177851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Fácil/2.png
+  artifactKey: Guid(738441dfd96487446b2c7e16859e2b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Fácil/2.png using Guid(738441dfd96487446b2c7e16859e2b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd41aef403e55b67faa896e7ec1fc59e4') in 0.048255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Medio/Copia de 10.png
+  artifactKey: Guid(777b97a03d4a69141b43fc095b9b256e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Medio/Copia de 10.png using Guid(777b97a03d4a69141b43fc095b9b256e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8902ec140165c52c586c6a389a4fac11') in 0.033626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Medio/10.png
+  artifactKey: Guid(8f0de3b5bcfcc0a4d97247ede60c5136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Medio/10.png using Guid(8f0de3b5bcfcc0a4d97247ede60c5136) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83023265b20337d85f26adf3831db266') in 0.051542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (2).png
+  artifactKey: Guid(2e71b7e7eea33774296ebbb4f13e75bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (2).png using Guid(2e71b7e7eea33774296ebbb4f13e75bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d0154810973d192825b144733665404') in 0.048270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Medio/40.png
+  artifactKey: Guid(559ace320cc18d1449664b93faa7cf2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Medio/40.png using Guid(559ace320cc18d1449664b93faa7cf2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb2d7df4ec317c5883354d624e2ee7bf') in 0.038498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Fácil/Copia de 9.png
+  artifactKey: Guid(56d16715b7bf7994f96bd05bde9704f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Fácil/Copia de 9.png using Guid(56d16715b7bf7994f96bd05bde9704f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d7097a629c65598cfd762b78fc694b5') in 0.029135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Fácil/1.png
+  artifactKey: Guid(a6dd1207225dfd740aa1a8c0bb7f8d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Fácil/1.png using Guid(a6dd1207225dfd740aa1a8c0bb7f8d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c8cac73613be9279920811fda656c1') in 0.041273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/12.png
+  artifactKey: Guid(16559d609484e5841a1f1dc174aa35f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/12.png using Guid(16559d609484e5841a1f1dc174aa35f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7bc13d5b615f0615340913bd885847b') in 0.041438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/16.png
+  artifactKey: Guid(d8a30bfc47c8b7f4caee8d48d9bbafc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/16.png using Guid(d8a30bfc47c8b7f4caee8d48d9bbafc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51f62ac80d415b5795e89d406e0726a0') in 0.041838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Difícil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T234503.265.png
+  artifactKey: Guid(99e2a80a2a5937345824a91dcc3a6067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Perro/Difícil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T234503.265.png using Guid(99e2a80a2a5937345824a91dcc3a6067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c17f03eea2d55a8635b4d928b84ba3c2') in 0.047868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (3).png
+  artifactKey: Guid(e09dd620b96d8b948b70315666965354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (3).png using Guid(e09dd620b96d8b948b70315666965354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27ec2dad91da1ffaa7e012356b10a788') in 0.044192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/50.png
+  artifactKey: Guid(c3b9ef05db8755d479acc84767da2927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Avanzado/50.png using Guid(c3b9ef05db8755d479acc84767da2927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82cc2f34d723a0f3e8be599a59ec31aa') in 0.049413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/36.png
+  artifactKey: Guid(3163bd7659b4cbb4bb2fef47d0fc5564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/36.png using Guid(3163bd7659b4cbb4bb2fef47d0fc5564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07869216de713572382f19196e221d95') in 0.041683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/3.png
+  artifactKey: Guid(7af836becbe0ea74880da1fa2ef23c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/3.png using Guid(7af836becbe0ea74880da1fa2ef23c7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1253e1ccca20bc22da81e40e93104f18') in 0.033513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (76).png
+  artifactKey: Guid(6ae9f3fb5634ca948abf59a3b1eb1dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (76).png using Guid(6ae9f3fb5634ca948abf59a3b1eb1dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54b710cf9bcea5cdeece6ffc8296a825') in 0.051793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T233638.444.png
+  artifactKey: Guid(81733499c74f07b41a6704a3d5523744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T233638.444.png using Guid(81733499c74f07b41a6704a3d5523744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82217375a633bfb50fa6ef39c4d985c2') in 0.037687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Medio/3.png
+  artifactKey: Guid(0c9259a04f759574b8b1916dd8935e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Ardilla/Medio/3.png using Guid(0c9259a04f759574b8b1916dd8935e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c98be7b7a1e2ad4840004258a8066e41') in 0.039504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/2.png
+  artifactKey: Guid(a2eef19b5dbfe5643be0fdd2f610cb42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/2.png using Guid(a2eef19b5dbfe5643be0fdd2f610cb42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b092c2d8fbbd1d4d4a6f2a743ef11b73') in 0.043586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (74).png
+  artifactKey: Guid(dfe4a1702aa84e94cb32f01015282e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (74).png using Guid(dfe4a1702aa84e94cb32f01015282e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f60a04b24c499a1347135250c0d5cfe') in 0.038944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Pájaro/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (67).png
+  artifactKey: Guid(6b6fc15277b934b469098616856452ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Pájaro/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (67).png using Guid(6b6fc15277b934b469098616856452ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1d111f4802cc22ab47675a5b4b80c1c') in 0.039842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (79).png
+  artifactKey: Guid(10dabcb407dcb9f4186ae9358773314e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (79).png using Guid(10dabcb407dcb9f4186ae9358773314e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac9168edab4b81b0167832855c1365e4') in 0.039566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (81).png
+  artifactKey: Guid(c49b076a0b47b9940a5656e7f65ad02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (81).png using Guid(c49b076a0b47b9940a5656e7f65ad02a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a1676ec55b85fca2af0264244552572') in 0.034822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pez/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (55).png
+  artifactKey: Guid(844bbc9ea2333a541827ce5fca1d817a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pez/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (55).png using Guid(844bbc9ea2333a541827ce5fca1d817a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c79a4576d2137d186d5e184bec962ed9') in 0.050959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (74).png
+  artifactKey: Guid(ae1894151e2805e4799813275ea0a0fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (74).png using Guid(ae1894151e2805e4799813275ea0a0fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22a870c8d24f7c1366eea2f35616eac4') in 0.038008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (56).png
+  artifactKey: Guid(a7cb36494f9313b489341b574e45e8fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio leer en voz alta/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (56).png using Guid(a7cb36494f9313b489341b574e45e8fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4c872af6b35b9e33fe7d5c4e3882a46') in 0.047307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio escribir/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (34).png
+  artifactKey: Guid(de88c06e98b212c41929cb179a264d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio escribir/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (34).png using Guid(de88c06e98b212c41929cb179a264d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d1b1e0dc1e52ea3d68eeb8675f8aecd') in 0.039358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/35.png
+  artifactKey: Guid(194f4a8a97ec59f448e991d569211d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Perro/Fácil/35.png using Guid(194f4a8a97ec59f448e991d569211d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb52f81872bb2c91800da1fcbbc2ba5b') in 0.039303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 43.456277 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (66).png
+  artifactKey: Guid(5c991f42d5d7312419b44ac141664ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (66).png using Guid(5c991f42d5d7312419b44ac141664ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddfc737b2c04e6fe2b28b4ae8eda1afa') in 0.038670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Medio/78.png
+  artifactKey: Guid(73b6f85e266258946ad7bafce8a40ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Medio/78.png using Guid(73b6f85e266258946ad7bafce8a40ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf01ccdb97d1480cd1cbe14ac5b6c9d0') in 0.044696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel medio/Copia de cascara.png
+  artifactKey: Guid(6aa0ef77a9493ff4f836c88631773a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel medio/Copia de cascara.png using Guid(6aa0ef77a9493ff4f836c88631773a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9763117b1557c5b3d235cfc92a581f4') in 0.048079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (9).png
+  artifactKey: Guid(86f8301d5a71d9844a86602d1cd983e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (9).png using Guid(86f8301d5a71d9844a86602d1cd983e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17eef485328ba71c76348c83fc85f8f1') in 0.047927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/52.png
+  artifactKey: Guid(fcbfad98653df4743a2cab8097bafdf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/52.png using Guid(fcbfad98653df4743a2cab8097bafdf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ef38e5ec78b2383efcfc56574492b45') in 0.050040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (52).png
+  artifactKey: Guid(017c9de282182634d9b1ef1c7c7b5e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (52).png using Guid(017c9de282182634d9b1ef1c7c7b5e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd68cdff4769580ef92f7c85285b4718b') in 0.051417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/1.png
+  artifactKey: Guid(f6156850b5b669f428078edd4ac3a3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/1.png using Guid(f6156850b5b669f428078edd4ac3a3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b44fb1836dd4c4d59b414f417c0ce3c5') in 0.040830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/2.png
+  artifactKey: Guid(b003a2c63f3bf60468c75d1202133aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/2.png using Guid(b003a2c63f3bf60468c75d1202133aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd02d8df8e81f17688ac9c647ceb032d2') in 0.044740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (10).png
+  artifactKey: Guid(1758e9de1cf8f2146873e4a9d3d9d8d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (10).png using Guid(1758e9de1cf8f2146873e4a9d3d9d8d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '646a2e68128a980f778a0c57dae01d2e') in 0.048341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/57.png
+  artifactKey: Guid(cd11f26ae30afec4cb01ccd590edb48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/57.png using Guid(cd11f26ae30afec4cb01ccd590edb48d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db0ad3171c4db83736fa986c81cbb265') in 0.068129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/82.png
+  artifactKey: Guid(d31259cb7393bab4390650020ab113de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/82.png using Guid(d31259cb7393bab4390650020ab113de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c83cd2f6a6bd6322739bc71e46c7466') in 0.056386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Copia de placa.png
+  artifactKey: Guid(ac887b072f3a6754db69982bdaab5a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Copia de placa.png using Guid(ac887b072f3a6754db69982bdaab5a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23d1ccf33760bb64e20f9fd8a4b9322d') in 0.070384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/pelota.png
+  artifactKey: Guid(c8633c45d9b16d34ebe800aa908d74ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/pelota.png using Guid(c8633c45d9b16d34ebe800aa908d74ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e258e5ab822b01609f063ef9f8822d0') in 0.061695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/1.png
+  artifactKey: Guid(129bcd07c78b34243a1c9c7dc15b9e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/1.png using Guid(129bcd07c78b34243a1c9c7dc15b9e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59fa7469cfa9caf5e56319febc13f4a4') in 0.050133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/5.png
+  artifactKey: Guid(205ad956883943e4492ea4a2f81d7c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/5.png using Guid(205ad956883943e4492ea4a2f81d7c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a22321721a206fc725f07b3980625f4e') in 0.040259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Copia de pelota.png
+  artifactKey: Guid(af52abab94c01824e9eeb852c9b00998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Copia de pelota.png using Guid(af52abab94c01824e9eeb852c9b00998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de07e9d7d67781d5701c7d70b7c61d7f') in 0.053202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/5.png
+  artifactKey: Guid(5582a1a734781ee4b9bb8c8a801e9071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/5.png using Guid(5582a1a734781ee4b9bb8c8a801e9071) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c0860736e19fe0a33156e349c664a0e') in 0.067322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T235222.680.png
+  artifactKey: Guid(cbf3f3bb5f6c3db40ab487f95b7e1f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! - 2024-09-24T235222.680.png using Guid(cbf3f3bb5f6c3db40ab487f95b7e1f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76d1d219c09ff1ad458809b55bf2ca66') in 0.054724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/Copia de Abaco Fácil.png
+  artifactKey: Guid(a9621e53005a0ae40a62d31a7dfcdcf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/Copia de Abaco Fácil.png using Guid(a9621e53005a0ae40a62d31a7dfcdcf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bf8e83de84eb3a0826bfdbeef73d0a8') in 0.049838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel avanzado/Copia de Copia de cascara.png
+  artifactKey: Guid(826adc0ad7193884f8370f1b2ec70bad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel avanzado/Copia de Copia de cascara.png using Guid(826adc0ad7193884f8370f1b2ec70bad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e8a5e062e334894cdb8052850859fbe') in 0.038938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel medio/pregunta abaco media.png
+  artifactKey: Guid(a3b17a69359cd0e41b24261b51ef02be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel medio/pregunta abaco media.png using Guid(a3b17a69359cd0e41b24261b51ef02be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '172df23ec36c5600cab7961998cc9dee') in 0.060307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel medio/pluma.png
+  artifactKey: Guid(04f172d608d82e241a639676eb340c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel medio/pluma.png using Guid(04f172d608d82e241a639676eb340c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd41aa0ccb19b9a3f58b95a00e7cc7c2') in 0.046993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Abaco avanzado.png
+  artifactKey: Guid(1e638643028df8748a5e3cbd0f60952a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/avanzado/Abaco avanzado.png using Guid(1e638643028df8748a5e3cbd0f60952a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63ab7718a864197dc4705ffdf878872') in 0.034790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (10).png
+  artifactKey: Guid(0f170a019005fca4d924b597a941514f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (10).png using Guid(0f170a019005fca4d924b597a941514f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f58aadd0395596ed8cf3b855a6e110') in 0.044587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Avanzado/15.png
+  artifactKey: Guid(a15b6b728a1329e4bb8e98a759f58a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Avanzado/15.png using Guid(a15b6b728a1329e4bb8e98a759f58a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79e1daf69a87cba80791ec0fef7bd68e') in 0.041512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/13.png
+  artifactKey: Guid(6c012c494304df34b8d51dd003d9f5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/13.png using Guid(6c012c494304df34b8d51dd003d9f5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbb442711a9a1fa441e68d4e8b99e53f') in 0.050684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel avanzado/Copia de ManiHD.png
+  artifactKey: Guid(35dd33ff588137d4097031f498afa6fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel avanzado/Copia de ManiHD.png using Guid(35dd33ff588137d4097031f498afa6fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd30f16ffdc179967ebb784da6604784') in 0.039448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel medio/Pregunta abaco ardilla medio.png
+  artifactKey: Guid(877e27855ea8f334899cf957fa8ecf84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel medio/Pregunta abaco ardilla medio.png using Guid(877e27855ea8f334899cf957fa8ecf84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f395c7ea0ced909b2524fd3624ab18d') in 0.057926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (54).png
+  artifactKey: Guid(840b4c73fd839dd4a97a1ca59cfb09d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (54).png using Guid(840b4c73fd839dd4a97a1ca59cfb09d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2099bf6dad207618591e98e17ac76b03') in 0.048893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (11).png
+  artifactKey: Guid(f2ff23d0b4be3f2409d5982d08820084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (11).png using Guid(f2ff23d0b4be3f2409d5982d08820084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c837af5a859c30b415f9c89bca28467c') in 0.051483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/Copia de bola_rayas.png
+  artifactKey: Guid(34e95dad2167b1a449801c0b7006ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/Copia de bola_rayas.png using Guid(34e95dad2167b1a449801c0b7006ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '950edfa2437f618bc379f0a21d7cfb16') in 0.064520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (61).png
+  artifactKey: Guid(f9ef9a81b1bc1024680cfd5c28bafbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (61).png using Guid(f9ef9a81b1bc1024680cfd5c28bafbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29498b4e8e7002771c71370f3b60c09f') in 0.056063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/ilustrator/abaco.ai
+  artifactKey: Guid(cf04b58bbb6001f44be903755f03b2c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/ilustrator/abaco.ai using Guid(cf04b58bbb6001f44be903755f03b2c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a80f3557a20f5d2dd14251951ebf9662') in 0.015729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/Copia de hueso.png
+  artifactKey: Guid(5f9f3373b19757d4ba7f127d0670260b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/Copia de hueso.png using Guid(5f9f3373b19757d4ba7f127d0670260b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89fdafa1aceb5839a2a70d60f2f19ebb') in 0.037433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/7.png
+  artifactKey: Guid(067bb664c416199488699c04b9f74eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/7.png using Guid(067bb664c416199488699c04b9f74eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec5c48afab2afaacebbb89fb8575bd84') in 0.064084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/6.png
+  artifactKey: Guid(cc163654986a8a34989bd8e855858d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/6.png using Guid(cc163654986a8a34989bd8e855858d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b61ef8d40b678f76c9115328208264b8') in 0.052548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/cascara.png
+  artifactKey: Guid(5972cf8a1ddbc934fa8af2a1f4db9e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/cascara.png using Guid(5972cf8a1ddbc934fa8af2a1f4db9e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f2b72cf56650f4e7517751d07dfbb9a') in 0.070594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/sol.png
+  artifactKey: Guid(3c3b67f5aae8d6a4492c9a9cddf6eef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/sol.png using Guid(3c3b67f5aae8d6a4492c9a9cddf6eef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bce5d37153f53420636160acdc0e859d') in 0.042570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/bellota.png
+  artifactKey: Guid(e401272862fba32418042c36403131a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/bellota.png using Guid(e401272862fba32418042c36403131a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '362ff0748c79b922f1ce4c5b7d1c4a98') in 0.048367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (6).png
+  artifactKey: Guid(e6c60ba503423684d9dbf9ac38727696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (6).png using Guid(e6c60ba503423684d9dbf9ac38727696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6247c7efce6cdeaf8235ce267ab611a2') in 0.034692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/58.png
+  artifactKey: Guid(2323ba24b890c034fb3c0c482996ecfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/58.png using Guid(2323ba24b890c034fb3c0c482996ecfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f11392432fb031936e3c37e6d8c9905') in 0.050089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel avanzado/a4 pez.png
+  artifactKey: Guid(4f1b3938e6517464a84b973bd0a92b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel avanzado/a4 pez.png using Guid(4f1b3938e6517464a84b973bd0a92b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0909c6ecf974debc4abdd845fc7e374') in 0.064594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel fácil/sol.png
+  artifactKey: Guid(972bedc4b707c0c4ea22f65799f33898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel fácil/sol.png using Guid(972bedc4b707c0c4ea22f65799f33898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35a5995cb3b271b0c057978d8b6880e1') in 0.041936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/temporizador facil.png
+  artifactKey: Guid(4a57d0404ef85d248826a94f58e5aeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/temporizador facil.png using Guid(4a57d0404ef85d248826a94f58e5aeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4570208c137ad5947688673fdfbf2b7') in 0.041757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (5).png
+  artifactKey: Guid(5e73598c88b114e4fa825637594f37b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (5).png using Guid(5e73598c88b114e4fa825637594f37b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c74fc5a027df8354f12093da6263737') in 0.036963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/bola_rayas.png
+  artifactKey: Guid(bb49dbc31ac8bca488022456e0ccc412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/bola_rayas.png using Guid(bb49dbc31ac8bca488022456e0ccc412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7af6aa5615ef4eccd37a71710d2c9aa') in 0.042580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/placa.png
+  artifactKey: Guid(5b5d0521ddc7a35468555421fd58c860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/placa.png using Guid(5b5d0521ddc7a35468555421fd58c860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c96f0a58a85455fdf39039c7b022c38') in 0.061525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel medio/a1 pez.png
+  artifactKey: Guid(a5c5fa8430a3a2a40afb1337d5ebe59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel medio/a1 pez.png using Guid(a5c5fa8430a3a2a40afb1337d5ebe59b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce1ac6641bc2a69aaf0c03d23d3ec80b') in 0.044945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (59).png
+  artifactKey: Guid(380fd5c97c9c45a42a472c01b7c5d94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (59).png using Guid(380fd5c97c9c45a42a472c01b7c5d94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6972c97a447b58782e50cedf15aee359') in 0.053886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (58).png
+  artifactKey: Guid(d6a9fc0e257defb4c9d3c0679017105c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (58).png using Guid(d6a9fc0e257defb4c9d3c0679017105c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46228305c5371d2d1287ba92196ab124') in 0.064047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/16.png
+  artifactKey: Guid(91806bae6b3884e458a4d89d02fe2aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/16.png using Guid(91806bae6b3884e458a4d89d02fe2aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c868e5755587993af3700523c9a3dd6') in 0.050868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/Temporizador avanzado.png
+  artifactKey: Guid(8bf8cecb948af214f90a30b30ad51248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/Temporizador avanzado.png using Guid(8bf8cecb948af214f90a30b30ad51248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cecef6baa9895b0af6b328953c0ea94c') in 0.042124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/huevo.png
+  artifactKey: Guid(ed2b7d728fee82042aa8c21d096a4d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/huevo.png using Guid(ed2b7d728fee82042aa8c21d096a4d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43223f02ab4efacdf13d5e84c15d0e8f') in 0.042257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Fácil/Copia de 52.png
+  artifactKey: Guid(01410013d7cde714ab37b2b583d317cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Fácil/Copia de 52.png using Guid(01410013d7cde714ab37b2b583d317cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06466f297ad224031f75696d7b1be53c') in 0.048077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/61.png
+  artifactKey: Guid(8e06aec1f0c6ff44aa2b1b1a4bb74d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Medio/61.png using Guid(8e06aec1f0c6ff44aa2b1b1a4bb74d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66ff4de5a4ba4deeb7180d2f2f4e7967') in 0.042507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Fácil/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (11).png
+  artifactKey: Guid(6cc89880e0ca32a4fbb2a02a6fffc0e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Fácil/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (11).png using Guid(6cc89880e0ca32a4fbb2a02a6fffc0e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28095a195075c56be5138e486b04be38') in 0.040597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (14).png
+  artifactKey: Guid(97bb41689791cc9459b462d55290cfe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (14).png using Guid(97bb41689791cc9459b462d55290cfe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea3e59bfc16198abd5efeb10f1fe8386') in 0.044065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/81.png
+  artifactKey: Guid(65d26a5ee034ea4479ba3cae61390793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Avanzado/81.png using Guid(65d26a5ee034ea4479ba3cae61390793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '448f85be2815ba5e983898ca2e07bfa5') in 0.056157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/nuez.png
+  artifactKey: Guid(67eded98e0f167b48ad8321da873d395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Ardilla/Nivel fácil/nuez.png using Guid(67eded98e0f167b48ad8321da873d395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a4f5a76cf213392e4ab28cb15b00bea') in 0.055189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Fácil/71.png
+  artifactKey: Guid(b394278d4e3eaa8478d0f71e21d95d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Perro/Fácil/71.png using Guid(b394278d4e3eaa8478d0f71e21d95d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6874ca25a4b8cffa607b3468aa07a29e') in 0.047540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (53).png
+  artifactKey: Guid(276f3f124069f85438284dcbbc75282e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Pez/Avanzado/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (53).png using Guid(276f3f124069f85438284dcbbc75282e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '181ebf74cf17c1ff92e341aac33b1e6d') in 0.061481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (60).png
+  artifactKey: Guid(363932cf9e5eaec44ba65e4ac9876a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pez/Avanzado/Copia de ¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (60).png using Guid(363932cf9e5eaec44ba65e4ac9876a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59f0bb5abf95690b1d414535f432223a') in 0.072492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Avanzado/67.png
+  artifactKey: Guid(ffee0d0e521346f4e8e4054b3e2fde60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Avanzado/67.png using Guid(ffee0d0e521346f4e8e4054b3e2fde60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f819f746dfb04f38722eafaeac45c27f') in 0.080516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/5.png
+  artifactKey: Guid(6f24f1820638d04449261895b405bf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Fácil/5.png using Guid(6f24f1820638d04449261895b405bf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b28cc283456411251a8cbb3e3425214') in 0.052240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/hueso.png
+  artifactKey: Guid(ce3d3b5ddb4e75e44964c1b14ba74a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/medio/hueso.png using Guid(ce3d3b5ddb4e75e44964c1b14ba74a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd41d79089ca9002364765e121955d22b') in 0.056224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Medio/8.png
+  artifactKey: Guid(8cc4e6ff3211d914eae4e535b3281f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Medio/8.png using Guid(8cc4e6ff3211d914eae4e535b3281f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5bc92999ef27bec0e1cc9e6fe91e5a6') in 0.055622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Avanzado/14.png
+  artifactKey: Guid(ea6686d599726b14c9f9af8cdfc8ea68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Perro/Avanzado/14.png using Guid(ea6686d599726b14c9f9af8cdfc8ea68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '767e488f3254d2807e935704a7ea5b68') in 0.044749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel medio/pregunta abaco media pez.png
+  artifactKey: Guid(4d3ee0cd28f0cb34f91acafd1a2c3e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel medio/pregunta abaco media pez.png using Guid(4d3ee0cd28f0cb34f91acafd1a2c3e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b0e1e586c0ebf7f89034b37f9b54f9') in 0.046071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (13).png
+  artifactKey: Guid(9d5e10148eb2dfb44b158c3160d97f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio número marcado escrito/Ardilla/Fácil/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (13).png using Guid(9d5e10148eb2dfb44b158c3160d97f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cec49cfc66292176a27bc1907d87531f') in 0.046042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/temporizador facil.png
+  artifactKey: Guid(2e842c4c2dfeee24fbc3079dfd54415e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Perro/fácil/temporizador facil.png using Guid(2e842c4c2dfeee24fbc3079dfd54415e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea06f69f997a01a1b7fbea4ce68eda5a') in 0.033420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001868 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/5.png
+  artifactKey: Guid(78347c41f00ad764f9f7963217cd2549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Ardilla/Fácil/5.png using Guid(78347c41f00ad764f9f7963217cd2549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84676d1bbb2c00308d80036866c3b4d6') in 0.044731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel avanzado/a3 pez.png
+  artifactKey: Guid(d8c6ca0704255a344b46017a8d1b45c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pez/Nivel avanzado/a3 pez.png using Guid(d8c6ca0704255a344b46017a8d1b45c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd95f9fe69c3432dadc1f5fe541edb6b') in 0.038910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (6).png
+  artifactKey: Guid(24ff51c11232d8d48b8221f321c0de2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio suma/Pájaro/Medio/¡Forma este número en el ábaco para que el ave pueda contar las lombrices que comió! (6).png using Guid(24ff51c11232d8d48b8221f321c0de2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98abe26f6af3c2f6791ec761612bff2e') in 0.041391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/Pluma2.png
+  artifactKey: Guid(cec355c025f4de849b6ad29f03b2bd52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Ejercicios/Ejercicio ábaco/Pájaro/Nivel avanzado/Pluma2.png using Guid(cec355c025f4de849b6ad29f03b2bd52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea6cce05a8ad154d9cd117505c72a9e8') in 0.040724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
