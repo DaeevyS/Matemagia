@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ruleta.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Ardilla/LvlAbacoArdillaDificil.unity
+    guid: 75aa9cce94b6e3b438e184e41e1b133c
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Ardilla/LvlAbacoArdillaFacil.unity
+    guid: 32ad141d82f8aa044a9ff042fd1a950a
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Ardilla/LvlAbacoArdillaMedio.unity
+    guid: aee67a8af135a7d459716b3a94dfb7ef
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pajaro/LvlAbacoPajaroDificil.unity
+    guid: f84285e2a953e744abd0b8409409f83f
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pajaro/LvlAbacoPajaroFacil.unity
+    guid: c7847471952a6a44c8d10f3c1329916c
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pajaro/LvlAbacoPajaroMedio.unity
+    guid: 464c51f14d43ec24e80ee6e1220a3972
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Perro/LvlAbacoPerroDificil.unity
+    guid: 41d674ef94e72d247b70ac23251b142d
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Perro/LvlAbacoPerroFacil.unity
+    guid: 75734a9188caeec4a88ba8bb1309ac52
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Perro/LvlAbacoPerroMedio.unity
+    guid: 311354eeee3208c46ab20d8e34cacba9
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pez/LvlAbacoPezDificil.unity
+    guid: e0d2ac8a3df0a08489f2cfd4f05f1846
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pez/LvlAbacoPezFacil.unity
+    guid: bf09a80412ee64347a3f94ec473c2b5c
+  - enabled: 1
+    path: Assets/Scenes/LvlAbaco/Pez/LvlAbacoPezMedio.unity
+    guid: de5f2ff0b4cc23e49913717134a6cbfb
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Ardilla/LvlEscribirArdillaDificil.unity
+    guid: 2a0a4aa2f26901c41bdc17687df2b646
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Ardilla/LvlEscribirArdillaFacil.unity
+    guid: cd3667675cc8a714488b93134241d1d0
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Ardilla/LvlEscribirArdillaMedio.unity
+    guid: 64ac9cb53a6a08c4b8c1bd3113ab782e
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pajaro/LvlEscribirPajaroDificil.unity
+    guid: c223496991733a344b5bc11304c4cc60
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pajaro/LvlEscribirPajaroFacil.unity
+    guid: 6ac5a66504c9562418f2f1443b45c9c1
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pajaro/LvlEscribirPajaroMedio.unity
+    guid: 623f0bc26a2b96a4581e13852f9bf6fd
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Perro/LvlEscribirPerroDificil.unity
+    guid: b1bedac9da0428b439304556dd113b99
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Perro/LvlEscribirPerroFacil.unity
+    guid: 7218170478c22e94d8ee6cda5d4d5666
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Perro/LvlEscribirPerroMedio.unity
+    guid: ca9dad2c45cb7c24d80418510261b570
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pez/LvlEscribirPezDificil.unity
+    guid: 09db08fbe61faca44b92cee9e36653b8
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pez/LvlEscribirPezFacil.unity
+    guid: 3e10ea1af02e9054bb7589aa4a2a43d7
+  - enabled: 1
+    path: Assets/Scenes/LvlEscribir/Pez/LvlEscribirPezMedio.unity
+    guid: b62351fc75cf97441891448f4b6186cd
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Ardilla 1/LvlOrganizarArdillaDificil.unity
+    guid: 3180d1f76ccef1b419137d3847d61f49
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Ardilla 1/LvlOrganizarArdillaFacil.unity
+    guid: 41b6a14f759b1d7448f3a7ebea517c1a
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Ardilla 1/LvlOrganizarArdillaMedio.unity
+    guid: c8c04d53e77180e429c77363c8fd6e65
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pajaro 1/LvlOrganizarPajaroDificil.unity
+    guid: 79d7a3a5be986cd4e9873da1dceefaaa
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pajaro 1/LvlOrganizarPajaroFacil.unity
+    guid: f78af09712acac644b50f58a81579fd9
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pajaro 1/LvlOrganizarPajaroMedio.unity
+    guid: cd8287853f337ef4198fe172b4c0493c
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Perro 1/LvlOrganizarPerroDificil.unity
+    guid: d65aa3314676c1d428b27232d4263b16
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Perro 1/LvlOrganizarPerroFacil.unity
+    guid: cb0daba38a66c1b4aae5ee7e15e4252c
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Perro 1/LvlOrganizarPerroMedio.unity
+    guid: dc80b6349f6e4b448b58ddd9fb676cef
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pez 1/LvlOrganizarPezDificil.unity
+    guid: 90fa0ab7184a50b4d887e79b56754ea7
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pez 1/LvlOrganizarPezFacil.unity
+    guid: 7cbf67ade6ac55c498941bef48e4e32b
+  - enabled: 1
+    path: Assets/Scenes/LvlOrganizar/Pez 1/LvlOrganizarPezMedio.unity
+    guid: 9a140f80bb4d7d94fac9cbfc596fa1a3
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Ardilla/LvlSumaArdillaDificil.unity
+    guid: 12a86a4b7a57b844b87ded2f3d466870
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Ardilla/LvlSumaArdillaFacil.unity
+    guid: 05481667cf2047b429b3eee0466b87e9
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Ardilla/LvlSumaArdillaMedio.unity
+    guid: 4751c59f87293ca43a67399034bc8cb8
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pajaro/LvlSumaPajaroDificil.unity
+    guid: 53b805613a13b21409eb0f10a1028221
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pajaro/LvlSumaPajaroFacil.unity
+    guid: 4033d42b49a90324f94044d718abf5a6
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pajaro/LvlSumaPajaroMedio.unity
+    guid: 76236e62fb66ea840a9ed8be3ed1f89c
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Perro/LvlSumaPerroDificil.unity
+    guid: 02c53f0bea82e064c95d28ecc144b2a9
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Perro/LvlSumaPerroFacil.unity
+    guid: 12366354056e8ce4689cb0c89581d7e3
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Perro/LvlSumaPerroMedio.unity
+    guid: 0fb459dbe4f29ed4782d84963be806d0
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pez/LvlSumaPezDificil.unity
+    guid: e559afd8c5b9c4e4aa36fa7bad0220fc
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pez/LvlSumaPezFacil.unity
+    guid: c0ec0d7d81eb0534cb6d8f513a6882a2
+  - enabled: 1
+    path: Assets/Scenes/LvlSuma/Pez/LvlSumaPezMedio.unity
+    guid: c2c6bb882f11a2040b6c168f2dcdd3c6
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Ardilla 1/LvlVPArdillaDificil.unity
+    guid: c287f253940f59b42a8f1f57445513ed
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Ardilla 1/LvlVPArdillaFacil.unity
+    guid: 574b7395ac1651c428cc21dc110d9a0f
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Ardilla 1/LvlVPArdillaMedio.unity
+    guid: b4efa14a78cb28944b258d10914f8f90
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pajaro 1/LvlVPPajaroDificil.unity
+    guid: 86fb353bd5685a343b374a797b33c774
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pajaro 1/LvlVPPajaroFacil.unity
+    guid: 1ceb3a004f4250d458e96138ae7cba73
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pajaro 1/LvlVPPajaroMedio.unity
+    guid: cde8700201801074cb613fa860757b6b
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Perro 1/LvlVPPerroDificil.unity
+    guid: 13fc881faa9c83a4fa75f6b2f3c6ba39
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Perro 1/LvlVPPerroFacil.unity
+    guid: b3a0d0a4fb947ea43a7929d692188afc
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Perro 1/LvlVPPerroMedio.unity
+    guid: 64060a406f00e5c42b4d0a5642840a63
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pez 1/LvlVPPezDificil.unity
+    guid: 4fc5cc7f4d99c3241ba7199400f0d8f7
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pez 1/LvlVPPezFacil.unity
+    guid: 2e6dd504888b8844598972f3181791f9
+  - enabled: 1
+    path: Assets/Scenes/LvlValorPosicional/Pez 1/LvlVPPezMedio.unity
+    guid: c9181b82ffbc8dc48a354e7a92c69dc0
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5d363f230ba69184189d5db3fa14b003, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d23836fee17be14458d43f681a39e5ea, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9408d653321e7c348bda3c3d250ad7c0, type: 2}
