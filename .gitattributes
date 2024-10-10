@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
+# Convertir a LF para todos los archivos de texto
 * text=auto
+
+# Archivos de configuración de scripts que deben usar LF (en Linux/Unix)
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Archivos binarios que no deben modificarse
+*.png binary
+*.jpg binary
+*.gif binary
