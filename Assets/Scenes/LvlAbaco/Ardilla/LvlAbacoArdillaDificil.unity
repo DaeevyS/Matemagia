@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1024, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4701,7 +4701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48, y: -0}
+  m_AnchoredPosition: {x: 6, y: -0}
   m_SizeDelta: {x: 5113.794, y: 2884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907232898
@@ -5632,6 +5632,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 217821461}
     m_Modifications:
+    - target: {fileID: 2723064251528359619, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
+      propertyPath: m_AspectRatio
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Name
       value: RawImage

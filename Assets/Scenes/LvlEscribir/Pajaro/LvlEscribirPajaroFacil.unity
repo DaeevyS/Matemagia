@@ -1596,6 +1596,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 32900000, guid: 50673fdde6890614ab75f2113008148d, type: 3}
     - target: {fileID: 2723064251528359619, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
+      propertyPath: m_AspectRatio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2723064251528359619, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 1dbb3e4a4e558614aae44f7ee863a921, type: 2}
