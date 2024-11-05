@@ -63,6 +63,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\VideoMenuInstrucciones.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Controllers\VPGameController.cs" />
     <Compile Include="Assets\Controllers\DragAndDropManager.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Views\MiniJuegoValorPosicional.cs" />
     <Compile Include="Assets\Views\NumEnLetrasGameController.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\VideoMenuIntroEinstru.cs" />
     <Compile Include="Assets\Scripts\ReturnToMainMenu.cs" />
     <Compile Include="Assets\Controllers\AbacusLineController.cs" />
     <Compile Include="Assets\Scripts\MoverObjetoUI.cs" />
@@ -87,8 +89,10 @@
     <Compile Include="Assets\Scripts\Ruleta.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\WinnerVIdeoPlayer.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Scripts\AbacoController.cs" />
     <Compile Include="Assets\Controllers\AbacusGameController.cs" />
@@ -111,8 +115,10 @@
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Controllers\AbacusBeadController.cs" />
+    <Compile Include="Assets\Scripts\VideoMenuIntro.cs" />
     <Compile Include="Assets\Views\UI\LogicaMenu.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\VideoMenuInstrucciones1.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Controllers\SumaGameController.cs" />
     <Compile Include="Assets\Sprites\TutorialInfo\Scripts\Readme.cs" />
