@@ -633,7 +633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6965977652820722431, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Pivot.x
@@ -1563,7 +1563,6 @@ MonoBehaviour:
   - {fileID: 804746634}
   - {fileID: 659952174}
   - {fileID: 1243246014}
-  resetButton: {fileID: 0}
   resultText: {fileID: 1010277341}
   enableThousands: 1
   enableTenThousands: 0
@@ -1787,7 +1786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6965977652820722431, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Pivot.x

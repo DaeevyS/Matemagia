@@ -69,17 +69,19 @@
     <Compile Include="Assets\Controllers\DragAndDropManager.cs" />
     <Compile Include="Assets\Models\NumberGenerator.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Controllers\ResponseController.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Views\MiniJuegoValorPosicional.cs" />
     <Compile Include="Assets\Views\NumEnLetrasGameController.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\VideoMenuIntroEinstru.cs" />
     <Compile Include="Assets\Scripts\ReturnToMainMenu.cs" />
+    <Compile Include="Assets\Controllers\ESP32ButtonListener.cs" />
     <Compile Include="Assets\Controllers\AbacusLineController.cs" />
     <Compile Include="Assets\Scripts\MoverObjetoUI.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\HorizontalMovement.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Sprites\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -1157,6 +1160,14 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">

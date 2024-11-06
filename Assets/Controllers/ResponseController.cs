@@ -14,9 +14,11 @@ public class ResponseController : MonoBehaviour
     // Botones para marcar la respuesta
     public Button correctButton;
     public Button incorrectButton;
-
+    private GameManager gameManager;
     private void Start()
     {
+        // Obtener la instancia del GameManager
+        gameManager = GameManager.Instance;
         // Desactivar las imágenes de video al inicio
         correctVideoImage.gameObject.SetActive(false);
         incorrectVideoImage.gameObject.SetActive(false);
@@ -37,6 +39,10 @@ public class ResponseController : MonoBehaviour
         {
             correctVideoImage.gameObject.SetActive(true);
             correctVideoPlayer.Play();
+            if (gameManager != null)
+            {
+                gameManager.UpdateScore(1); // Añadir 1 punto para la respuesta correcta
+            }
         }
         else if (result == "incorrecto")
         {

@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &10542207 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3341059633820772689, guid: 85d126478c74fa64c8436729d3ae6a02, type: 3}
+  m_PrefabInstance: {fileID: 148673732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &148673732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1779,7 +1790,7 @@ MonoBehaviour:
   - {fileID: 804746634}
   - {fileID: 659952174}
   - {fileID: 1243246014}
-  resetButton: {fileID: 0}
+  resetButton: {fileID: 10542207}
   resultText: {fileID: 1010277341}
   enableThousands: 1
   enableTenThousands: 0
@@ -2390,12 +2401,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2723064251528359619, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2723064251528359619, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 058d7977f5e4bd94a8c636785a3ee3fa, type: 2}
     - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Name
       value: RawImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6965977652820722431, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Pivot.x
@@ -2542,6 +2561,10 @@ PrefabInstance:
     - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Name
       value: RawImage (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329388822837831868, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6965977652820722431, guid: b80b3c38cec1dce449f40c8f2ff0e794, type: 3}
       propertyPath: m_Pivot.x

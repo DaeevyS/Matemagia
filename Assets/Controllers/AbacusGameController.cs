@@ -18,9 +18,11 @@ public class AbacusGameController : MonoBehaviour
 
     public VideoPlayer videoPlayer;
     public RawImage videoImage;  // Referencia al RawImage donde se mostrará el video
+    private GameManager gameManager; // Referencia al GameManager
 
     void Start()
     {
+        gameManager = GameManager.Instance;
         GenerateNewNumber();
         videoPlayer.loopPointReached += OnVideoEnd;
         videoImage.gameObject.SetActive(false);  // Ocultar el RawImage al inicio
@@ -39,9 +41,29 @@ public class AbacusGameController : MonoBehaviour
         {
             Debug.Log("¡Correcto! Reproduciendo video...");
             PlayVideo();
+
+            // Determinar la dificultad y asignar puntos según el nombre de la escena
+            int points = GetPointsForCurrentScene();
+            if (gameManager != null && points > 0)
+            {
+                gameManager.UpdateScore(points);
+            }
+
         }
     }
+    int GetPointsForCurrentScene()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
 
+        if (sceneName.Contains("Facil"))
+            return 1;
+        else if (sceneName.Contains("Medio"))
+            return 2;
+        else if (sceneName.Contains("Dificil"))
+            return 3;
+        
+        return 0; // En caso de que no coincida con ninguna dificultad
+    }
     void GenerateNewNumber()
     {
         if (unidadDeMil.activeSelf && !decenaDeMil.activeSelf)

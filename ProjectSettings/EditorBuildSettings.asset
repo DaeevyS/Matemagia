@@ -12,6 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Ruleta.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
+    path: Assets/Scenes/Ganador.unity
+    guid: 9d01c8611926ceb4d98395b363fbd91a
+  - enabled: 1
+    path: Assets/Scenes/Escena ganadores/GanadoraArdilla.unity
+    guid: b0a94d824f676424385e24a9ff01d748
+  - enabled: 1
+    path: Assets/Scenes/Escena ganadores/GanadoraPajaro.unity
+    guid: 8f6b243404a3f20448cb6cea79df964f
+  - enabled: 1
+    path: Assets/Scenes/Escena ganadores/GanadoraPerro.unity
+    guid: 56acb77413370b447aa4dca19a185cf0
+  - enabled: 1
+    path: Assets/Scenes/Escena ganadores/GanadoraPez.unity
+    guid: eea42ed712d6bd74190d41b373f94ba8
+  - enabled: 1
     path: Assets/Scenes/LvlAbaco/Ardilla/LvlAbacoArdillaDificil.unity
     guid: 75aa9cce94b6e3b438e184e41e1b133c
   - enabled: 1

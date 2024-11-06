@@ -15,9 +15,12 @@ public class OrganizarGameController : MonoBehaviour
     [Header("Video Configuration")]
     [SerializeField] private VideoPlayer videoPlayer;
     [SerializeField] private RawImage videoImage;
+    private GameManager gameManager;
 
     private void Start()
     {
+        gameManager = GameManager.Instance; // Obtener la instancia de GameManager
+
         confirmButton.onClick.AddListener(ConfirmAnswer);
         newNumberButton.onClick.AddListener(GenerateNewNumber);
         videoPlayer.loopPointReached += OnVideoEnd;
@@ -34,6 +37,11 @@ public class OrganizarGameController : MonoBehaviour
         {
             resultText.text = "¡Correcto!";
             PlayVideo();
+            // Notificar al GameManager para actualizar el puntaje (e.g., 1 punto por respuesta correcta)
+            if (gameManager != null)
+            {
+                gameManager.UpdateScore(1);
+            }
         }
         else
         {

@@ -8,7 +8,7 @@ public class SumaGameController : MonoBehaviour
 {
     public Text questionText;
     public Button[] answerButtons;
-    public Button resetButton;
+
     public Text resultText;
     public bool enableThousands = false;
     public bool enableTenThousands = false;
@@ -20,13 +20,13 @@ public class SumaGameController : MonoBehaviour
     [Header("Video Configuration")]
     public VideoPlayer videoPlayer;
     public RawImage videoImage;
+    public GameManager gameManager;
 
     private void Start()
     {
         GenerateNumbers();
         UpdateQuestionText();
         SetUpAnswerButtons();
-        resetButton.onClick.AddListener(ResetGame);
 
         videoPlayer.loopPointReached += OnVideoEnd;
         videoImage.gameObject.SetActive(false);
@@ -125,6 +125,16 @@ public class SumaGameController : MonoBehaviour
             resultText.color = Color.green;
             resultText.text = "¡Correcto!";
             PlayVideo();
+
+            if (gameManager != null)
+            {
+                gameManager.UpdateScore(1); // Sumar 1 punto, ajusta si necesitas otro valor
+                Debug.Log("Puntaje actualizado en GameManager por respuesta correcta.");
+            }
+            else
+            {
+                Debug.LogWarning("GameManager no está asignado en SumaGameController.");
+            }
         }
         else
         {

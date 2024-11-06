@@ -27,6 +27,7 @@ public class VPGameController : MonoBehaviour
     private int digitoResaltado;
     private string[] nombresValoresPosicionales = { "Unidad", "Decena", "Centena", "Unidad de Mil", "Decena de Mil" };
     private Color[] coloresDigitos = { Color.red, Color.blue, Color.green, Color.magenta, Color.cyan };
+    private GameManager gameManager;
 
     private void Start()
     {
@@ -102,6 +103,8 @@ public class VPGameController : MonoBehaviour
             textoResultado.text = "¡Correcto! Has identificado el valor posicional correctamente.";
             textoResultado.color = Color.green;
             PlayVideo(); // Reproducir el video cuando la respuesta es correcta
+
+            gameManager.UpdateScore(1);  // Asumimos que 1 punto se suma por respuesta correcta
         }
         else
         {
